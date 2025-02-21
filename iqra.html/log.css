@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+IT+Moderna:wght@100..400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #af4c86, #24243e);
+}
+.navv {
+  text-align: center;
+}
+/* Login form container */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Login form styling */
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Login button styling */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #af4c86;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #af4c86;
+}
+
+/* Extra options like registration */
+.extra-options {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.extra-options a {
+  color: #af4c86;
+  text-decoration: none;
+}
+
+.extra-options a:hover {
+  text-decoration: underline;
+}
