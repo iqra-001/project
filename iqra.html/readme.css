@@ -7,3 +7,75 @@ body {
     min-height: 100vh;
     font-family: "Jost", sans-serif;
     background: linear-gradient(to bottom, #b2ace2, #d07fae, #9b9bcd);
+}
+.container {
+    background-color: none;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .quiz h2 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  .quiz h3 {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f0a1d5;
+    color: white;
+  }
+  
+  button:nth-child(1) {
+    background-color: #ffd700;
+    color: #333;
+  }
+  
+  button:nth-child(2) {
+    background-color: #c0c0c0;
+    color: #333;
+  }
+  
+  button:nth-child(3) {
+    background-color: #333;
+    color: white;
+  }
+  
+  .progress p {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+  }

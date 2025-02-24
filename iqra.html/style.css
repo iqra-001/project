@@ -422,7 +422,12 @@ footer {
 }
 
 .text-container .read-more-btn:hover {
+
   background-color: #555;
+}
+.text-container .read-more-btn:link{
+  background-color: #555;
+
 }
 
 .sub-heading {
